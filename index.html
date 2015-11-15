@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>WordPress ~ Girl Develop It</title>
+
+		<meta name="description" content="This is a Girl Develop It WordPress curriculum. Designed originally by Laura Eagin and Leeann Drees from GDI Detroit. This is an introduction to Wordpress.">
+
+		<meta name="author" content="Girl Develop It">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/gdilight.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+		<!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/light.css">
+
+		<!-- If use the PDF print sheet so students can print slides-->
+		
+		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			  <!-- Opening slide -->
+			  
+        <!-- Welcome-->
+        <section>
+          <h3>Welcome!</h3>
+          <div class = "left-align">
+          <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+          
+          <p class ="green">Some "rules"</p>
+          <ul>
+            <li>We are here for you!</li>
+            <li>Every question is important</li>
+            <li>Help each other</li>
+            <li>Have fun</li>
+          </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Let's meet the class!</h3>
+          <p>Tell us your name</p>
+          <p>What you want to get out of this class</p>
+          <p>What's your favorite book</p>
+        </section>
+        
+        <section>
+          <img src = "images/gdi_logo_badge.png" style="border: none; box-shadow: none;">
+          <h3>WordPress</h3>
+        </section>
+
+      
+        <section>
+          <h3>WordPress - What we will cover</h3>
+            <p>What is WordPress </p>
+            <p>The Dashboard</p>
+            <p>Installing a theme</p>
+            <p>Themes</p>  
+            <p>Publish our own Pages &amp; Posts</p>
+            <p>Widgets, Menus, &amp; Plugins</p>
+            <p>Questions</p>
+        </section>
+
+        <!-- WordPress Possibilities-->
+        <section>
+          <h3>What is WordPress?</h3>
+          <ul>
+            <li class= "fragment">An open source blogging tool and content management system.</li>
+            <li class= "fragment">WordPress was created in 2003.</li>
+            <li class= "fragment">Powers 20% of the web &amp; 66% of CMS sites.<br/>
+            <li class= "fragment">Constantly being improved. Free.</li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h3>Why do we use WordPress?</h3>
+          <ul>
+          	<li class="fragment"><span class="green">WordPress is a free software</span> - this means you are free to download, install, use and modify it. You can use it to create any kind of website. It is also open source which means the source code of the software is available for any one to study, modify and play with. </li>
+            <li class="fragment"><span class="green">WordPress is Easy to Use and Learn</span> - WordPress is used by millions of people and almost every day new people are joining the WordPress community by creating their first WordPress powered websites. The reason why people quickly adapt to WordPress is because it is fairly easy to use.</li>
+            <li class="fragment"><span class="green">WordPress is Extendable by Using Themes and Plugins</span> - There are currently 2600+ WordPress themes and 31,000+ plugins available for free. You can download, install and use them on any website.</li>
+          	</ul>
+        </section>
+
+
+        <section>
+          <h3>Why do we use WordPress? Cont.. </h3>
+          <ul>
+            <li class="fragment"><span class="green">WordPress is Easy To Manage</span> - WordPress comes with built-in updater that allows you to update your plugins and themes from within your WordPress admin dashboard. It also notifies you when there is a new version of WordPress is available, so you can update it by just clicking a button. </li>
+            <li class="fragment"><span class="green">WordPress Can Handle Different Media Types</span> - Using WordPress you are not just limited to writing text. It comes with built-in support to handle images, audio, and video content. </li>
+            </ul>
+        </section>
+
+
+          <!--Examples-->
+        <section>
+         <h3>Examples</h3>
+              <ul>
+                <li class="left-align"><a href="http://www.bbcamerica.com/" target="_blank">BBC America</a></li>
+                <li class="left-align"><a href="http://www.mtv.com/news/" target="_blank">MTV News</a></li>
+                <li class="left-align"><a href="http://variety.com/" target="_blank">Variety</a></li>
+                <li class="left-align"><a href="http://www.cnn.com/" target="_blank">CNN</a></li>
+              
+            </ul>
+            <p>
+            	<br/>
+            	<a href="http://wordpress.org/showcase/" target="_blank">WordPress Showcase</a></p>
+
+        </section>
+
+ 		<section>
+          <h3>WordPress.com</h3>
+          <h3>vs.</h3>
+          <h3>WordPress.org</h3>
+        </section>
+
+
+       <section>
+          <h3>WordPress.com</h3>
+          <ul>
+          <li class="fragment left-align"><a href="http://wordpress.com" target="_blank">WordPress.com</a> is "free"</li>
+          	<ul><li class="fragment">Similar to Blogger, Tumblr, TypePad etc.</li></ul>
+          <li class="fragment  left-align">They host your files.</li>
+          <li class="fragment left-align">By default your domain name will be: <span class="green">YourName.WordPress.com</span></li>
+          <li class="fragment  left-align">Customization options are extremely limited.</li>
+          <li class="fragment  left-align">There are no plugins.</li>
+          <li class="fragment  left-align">Cannot buy themes.</li>
+          <li class="fragment  left-align">*Many premium features. $$ (even adding a video to your site)</li>
+        </ul>
+        </section>
+
+        <section>
+          <h3>WordPress.com Add Ons</h3>
+          <img src="images/dotcom_premium.png"/>
+        </section>
+
+         <section>
+          <h3>Self Hosted : WordPress.org</h3>
+        <ul>
+          <li class="fragment">WordPress is free! Download at <a href="http://wordpress.org" target="_blank">WordPress.org</a></li>
+          <li class="fragment">To run this software, the files need to be hosted on a server.</li>
+          <li class="fragment">You pay for domain and hosting</li>
+          <li class="fragment">The sky's the limit with your self-hosted WP site!</li>
+        </ul>
+        </section>
+
+        <section>
+          <br/><br/><br/>
+          <p class="blue">We'll focus on <span class="pink">wordpress.org</span> in our class today.</p>
+          <p>Though, many features are available on both platforms. </p>
+        </section>
+
+         <section>
+          <h3>Domain</h3>
+          <ul>
+	          <li>You purchase your domain name.</li>
+	          <li>Costs about $10-15/year</li>
+	          <li>Domain name gives an address to your files.</li>
+      	  </ul>
+        </section>
+
+         <section>
+          <h3>Hosting</h3>
+          <p><span class="green">Web hosting.</span> About $10-15/month</p>
+          <p>There are really a lot of good hosts to choose from.</p>
+          <small><a href="http://www.whoishostingthis.com/compare/wordpress/" target="_blank">Read reviews: http://www.whoishostingthis.com/compare/wordpress/</a></small>
+          <p class="fragment">Some of our favorites are: 
+          	<ul class="fragment">
+          		<li><a href="http://bluehost.com" target="_blank">Bluehost</a></li>
+          		<li><a href="http://dreamhost.com" target="_blank">Dreamhost</a></li>
+          		<li><a href="http://www.hostgator.com/" target="_blank">Host Gator</a></li>
+          	</ul>
+        </section>
+
+        <section>
+          <h3>Domain name</h3>
+          <h3>+ </h3>
+          <h3>Hosting</h3>
+          <h3>+ </h3>
+          <h3>WordPress Installed on Hosting</h3>
+        </section>
+
+      
+         <section>
+          <h3 class="blue">Let's try it!</h3>
+          <p><span class="green">If you have hosting</span>, install WordPress on your hosting if you haven't yet.  We'll help out if you get stuck!</p>
+          <hr>
+          <p><span class="green">If you don't have hosting</span>, log in to your assigned temporary WordPress installation:
+          <p><span class="pink" style="font-size: 85%;">http://gdiboston.com/wordpress/<span class="red">YourFirstName(all lowercase)</span>/wp-admin</span></p>
+          <p><strong>Username:</strong> Student</p>
+          <p><strong>Password:</strong> GDIBoston123</p>
+          <hr>
+          <p><strong>Finally, Log in to your Dashboard.</strong></p>
+           <p><span class="green"><strong>Hint</strong></span>: <span class="green">/wp-admin</span></p>
+        </section>
+
+        <section>
+  		  <br/>
+  		  <br/>
+          <h2>Behind the scenes</h2>
+          <p>How does WordPress actually work?</p>
+        </section>
+
+        <section>
+          <h3>Databases are ugly.</h3> 
+          <h3>WordPress is easy.</h3>
+          <p>Databases simply store data and retrieve it easily.</p>
+          <hr>
+          <p>WordPress gives you a nice GUI, a way to interact with your database content.</p>
+          <br/><br/>
+          <small>GUI = Graphical User Interface. Pronounced "gooey"</small>
+        </section>
+
+        
+        <!-- The WordPress Dashboard-->
+        <section>
+          <h3>The WordPress Dashboard</h3>
+          <div class="left" style="width: 45%;">
+          <p align="left">The WordPress dashboard is the first screen you see when you log in to administration area of your site.</p> <br/>
+          <p align="left">From the dashboard you can access pages, media, site settings, plugins... everything!
+          </p> <br/>
+          <p align="left">The link to the dashboard would be something like this:</p> <br/>
+          <p align="left">http://gdiboston.com/wordpress/wp-admin</p>
+        </div>
+          <div class="right" style="width: 55%;"><img src="images/dashboard.png" width="500px" alt="the wordpress dashboard" title="the wordpress dashboard" /><br/></div>
+        </section>
+       <!--Leeann!-->
+       <section>
+        <h3>Configure Basic Settings</h3>
+        <p>The first thing to take care of is our configuring settings!</p>
+        <img src="images/options-general.png">
+       </section>
+       <section>
+        <h3>Login to Your Dashboard</h3>
+          <p class="green">Exploring the Settings Menu</p>
+<ul>
+<li>General: Title, tagline, site address, date format</li>
+<li>Writing: Post-related settings</li>
+<li>Reading: Set site home page, # of posts, rss settings and search engine visibility</li>
+<li>Discussion: Manage comment settings</li>
+<li>Media: Make default image sizes and other media settings</li>
+<li>Permalinks: Define the structure of site URLs</li>
+</ul>
+       </section>
+
+       <section>
+         
+<h3>Let's try it.</h3>
+
+<p>At the top: Expand 'Screen Options'</p>
+<p>Optional Settings:</p>
+<p>Require users to register before posting a comment</p>
+<p>Require comments to be approved by admin</p>
+<p>Reduce "Large size" images to 960 (faster load)</p>
+
+
+       </section>
+
+       <section>
+            <h3>Users</h3>
+            <h5 class="green">What are User Roles?</h5>
+            
+                <p>
+                <a href="http://codex.wordpress.org/Roles_and_Capabilities" target="_blank">Users editing privileges</a>. 
+                </p>
+
+              <ul>
+                <li><strong>Administrator:</strong> access to all administration features</li>
+                <li><strong>Editor:</strong> publish and manage posts including posts from other users</li>
+                <li><strong>Author:</strong> publish and manage own posts</li>
+                <li><strong>Contributor:</strong> write and manage own posts, publish requires approval</li>
+                <li><strong>Subscriber:</strong> can only manage their profile</li>
+              </ul>
+          
+          </section>
+       <!--Themes!-->
+        <section>
+          <h3>Themes</h3>
+          <p>A theme is a set of files that style your site's content.</p>
+          <hr>
+          <img src="images/themes.png"/>
+          <p>CSS + a few extra features</p>
+        </section>
+
+        <section>
+          <h3>Theme Files</h3>
+          <img src="images/theme_structure.jpg"/>
+        </section>
+        
+        <section>
+         <h3>So Many Themes</h3>
+            <p class="green">Free themes: </p>
+            <ul class="left-align">
+              <li class="left-align">Default pre-loaded themes</li>
+              <li class="left-align">Wordpress.org/themes</li>
+            </ul>
+            <br/><br/>
+              <p class="green">Commercial themes: </p>
+              <ul>
+                <li class="left-align">Themeforest</li>
+                <li class="left-align">WooThemes</li>
+                <li class="left-align">Themify.me</li>
+                <li class="left-align">ithemes</li>
+                <li class="left-align">The Theme Foundry</li> 
+                <li class="left-align">StudioPress</li>
+                <li class="left-align">etc...</li>
+            </ul>
+        </section>
+
+        <section>
+         <h3>So Many Themes</h3>
+            <p class="green">Basic things to look for: </p>
+            <ul>
+              <li class="left-align fragment">Basic theme structure and content areas</li>
+              <li class="left-align fragment">Is anything broken?</li>
+              <li class="left-align fragment">Is it responsive?</li>
+              <li class="left-align fragment">Did it load slowly?</li>
+              <li class="left-align fragment">Is it well supported?</li>
+              <li class="left-align fragment">What do others say about it?</li>
+            </ul>
+        </section>
+
+        <section>
+          <h3>Changing Themes</h3>
+            <p>Install it.</p>
+            <p>"Live Preview" it.</p>
+            <p>Activate it</p>
+        </section>
+
+        <section>
+          <h3>Installing a Theme</h3>
+          <p>In this class we are going to download <a href="https://wordpress.org/themes/sela/">Sela</a> theme.</p>
+         
+        </section>
+
+        <section><h3>No Theme is Perfect. Customize!</h3>
+          <p class="green">Two Ways:</p>
+          <li class="fragment">Built-in theme options</li>
+          <li class="fragment">Child themes</li>
+        </section>
+
+        <section>
+       <h3>Built In Theme Options</h3>
+      <img src="images/themeoptions1.png"/ width="450" style="float:left">
+      <img src="images/theme_color_options.png"/  width="450" style="float:right">
+    </section>
+
+    <section>
+      <h3>Child Themes</h3>
+      <li class="fragment">A WordPress child theme is a theme that inherits the functionality of another theme, called the parent theme</li><br/>
+      <li class="fragment">Child themes allow you to modify or add to the functionality of that parent theme safely.</li><br/>
+      <li class="fragment">With a child theme, you can update the parent theme (which might be important for security or functionality) and still keep your changes.</li>
+      <br/>
+      <small class="fragment"><strong>Source &amp; more info</strong>: <a href="codex.wordpress.org/Child_Themes">codex.wordpress.org/Child_Themes</a></small>
+    </section>
+
+    <section>     
+      <div class="left" style="width: 48%; float: left;">
+                <p>Parent Theme</p>
+        <img src="images/parent_theme.jpg">
+                <small>Canvas by Woothemes</small>
+
+      </div>
+          <div class="right" style="width: 48%; float: left;">
+            <p>Child Theme</p>
+            <img src="images/child_theme.jpg">
+      </div>
+      <small><a href="http://www.woothemes.com/2012/11/case-study-utique/"  target="_blank">Another great example from the same parent theme.</a></small>
+    </section>
+        <section>
+         <h3>How to Create a Child Theme</h3>
+
+         <p>We wont be creating a child theme in this class but in creating a theme workshop. If anyone wants to coninue and add a child theme I can answer any questions after class.</p>
+
+            <!-- <li class="fragment">This is all you need: <br/>
+            <img src="images/child-theme-screenshot.png"></li>
+            <li class="fragment">Inside your WordPress "themes" folder, create a new folder with the name of your child theme.</li> -->
+        </section>
+       <!--  <section>
+        <h3>Child Themes</h3>
+            <li class="fragment">This new folder needs to hold one file: <span class="green">style.css</span></li>
+            <li class="fragment">This code goes at the beginning of <span class="green">style.css</span>: <br/>
+              <div class="xml" style="font-size: 80%;">
+              <pre>
+                <code>
+                /*
+                 Theme Name:     Twenty Thirteen Child
+                 Theme URI:      http://example.com/twenty-thirteen-child/
+                 Description:    Twenty Thirteen Child Theme
+                 Author:         John Doe
+                 Author URI:     http://example.com
+                 Template:       twentythirteen
+                 Version:        1.0.0
+                */
+
+                @import url("../twentythirteen/style.css");
+
+                /* Theme customization starts here */
+              </code>
+              </pre>
+            </div>
+            <li class="fragment">This stylesheet is included <em>after</em> the parent theme's and its styles will therefore override them.</li>
+        </section> -->
+        <section>
+          <h3>How to publish a page</h3>
+          <img src="images/addnewpage.png" alt="publishing a page in WordPress"> <!--turn this image into dashboard link for demo -->
+        </section>
+        <section>
+			<div style="float:left; width:45%;">
+         <p><span class="pink"><strong>The Visual Editor</strong></span>:
+          What you see is close to what you get.</p>
+           <img src="images/visualeditor.png" alt="visual editor" width="100%" height="auto"/>
+	      </div>
+	      <div style="float:right; width:45%;">
+         <span class="pink"><strong>The Text Editor</strong></span>: Makes code nerds really happy!</p>
+                  <img src="images/texteditor.png" alt="text editor" width="100%" height="auto"/>
+
+     </div>
+    	</section>
+      <!--develop it!-->      
+       	<section >
+    		<h3>Let's try it!</h3>
+	          <p class="left-align">Create a new page</p>
+	          <hr>
+	          <p class="left-align">Give it your name as the title</p>
+	          <hr>
+	    	  <p class="left-align">Write three paragraphs of text (or lorem ipsum?)</p>
+	    	  <hr>
+	    	  <p class="left-align">Add at least one image to your page</p>
+	          <hr>
+	          <p class="left-align">Preview it!</p>
+    	</section>
+
+        <section >
+          <h3>Take it up a level!</h3>
+            <p class="left-align">Turn some text into a link.</p>
+          <hr>
+            <p class="left-align">Style headings : H1, H2, H3</p>
+          <hr>
+            <p class="left-align">Italicize and bold some text.</p>
+          <hr>
+      </section>
+
+
+        <section >
+          <h3>Before we publish</h3>
+              <p class="left-align">Preview our page.</p>
+          <hr>
+              <p class="left-align">Add a featured image?</p>
+          <hr>
+              <p class="left-align">Page attributes: Parent, Template, Order</p>
+          <hr>
+              <p class="left-align">Check the "slug" or URL</p>
+        </section>
+    	
+        <!--Back to General WordPress Doodads and Gizmos Now -->
+        <!-- *********************************************** -->
+        <!--Pages vs Posts!-->
+        <section>
+         <h3>Pages</h3>
+         <p>vs</p>
+         <h3>Posts</h3>
+         <p>vs</p>
+         <h3>Widgets</h3>
+        </section>
+
+        <section>
+         <h3>Pages vs. Posts. vs. Widgets</h3>
+         <img src="images/post_page_widget.jpg"/>
+         <small>Some pages show lists of posts. Typically your Blog page, or sometimes your Home page</small>
+        </section>
+        <section>
+         <h3>Pages vs. Posts. vs. Widgets</h3>
+         <img src="images/page_widget.jpg"/>
+          <small>Standalone pages do not show a list of posts, but show the page content.</small>
+        </section>
+
+        <section>
+          <h3>Widgets</h3>
+          <p>Widgets are dynamic content areas.</p>
+          <img src="images/widgets_examples.png" style="border: none; box-shadow: none;"/>
+        </section>
+
+        <section>
+        	<h3>Widgets</h3>
+        	<p>Widgets are often in the footer, sidebar.</p>
+        	<hr>
+        	<p><span class="green">Add &amp; edit them: </span>Sidebar / Appearance / Widgets</p>
+        	<hr>
+        	<p>Drag, drop, save.</p>
+        </section>
+
+        <section>
+        	<h3>Let's try it</h3>
+          <ul>
+        	<li>Add the "<span class="green">Recent Posts</span>" widget to your sidebar</li>
+        	<li>Edit that widget's settings as you'd like</li>
+         <li> Remove a widget</li>
+<li>Add more Widgets</li>
+<li>Expand and customize a Widget</li>
+<li>Drag and Drop Widget order</li>
+</ul>
+        	<hr>
+        	<p>Next up: we'll publish some posts.</p>
+        </section>
+
+        <section>
+          <h3>Let's publish a post</h3>
+          <img src="images/publish_post.png" alt="publishing a page in WordPress"> <!--turn this image into dashboard link for demo -->
+        </section>
+
+        <section >
+          <h3>Before we publish</h3>
+              <p class="left-align">Add tags</p>
+          <hr>
+              <p class="left-align">Choose a category</p>
+          <hr>
+              <p class="left-align">Choose a featured image</p>
+        </section>
+
+
+        <section>
+         <h3>You're now a blogger</h3>
+         <p>Give your neighbor a high five!</p>
+         <img src="images/high-five-cat.jpg" alt="high five cat"/>
+        </section>
+
+        <section>
+          <h3>Menus</h3>
+          <p>In order to navigate the site, we set up a menu.</p>
+          <hr>
+          <p>We can make multiple menus.</p>
+          <hr>
+          <p><span class="green">Common menu locations:</span> <br/>main menu, sidebar menu, footer menu</p>
+           <p class="blue fragment"><a href="http://gdiboston.com/wordpress/wp-admin/" target="_blank">Dashboard / Menus</a></p>
+        </section>
+
+        <section>
+          <h3>Let's try it.</h3>
+          <p>Create two menus and add pages to each. Save.</p>
+          <hr>
+          <p>Notice where the menus appear on your site.</p>
+        </section>
+
+       <!--Plugins!-->
+        <section>
+         <h3>Plugins</h3>
+         <ul>
+         <li>A piece of software that you add on to your site</li>
+         <li>Gives us advanced features</li>        
+         <li>Helps us manage our site better</li>
+         <li>Many plugins are free.</li>         
+         <li>You can even build your own plugin!</li>
+     	 </ul>
+     	 <br/><br/>
+     	 <p class="blue"><a href="http://gdiboston.com/wordpress/wp-admin/plugins.php" target="_blank">Let's go to the Dashboard / plugins</a></p>
+     	</section>
+
+      <section>
+        <h3>Plugins cont..</h3>
+         <p>WordPress includes 2 plugins:</p>
+                <ul>
+                  <li><strong>Akismet:</strong> Protects your site from comment and trackback spam. *Note: requires an <a href="http://akismet.com/wordpress" target="_blank">Akismet key</a> and monthly subscription fee.</li>
+                  <li><strong>Hello Dolly:</strong> Adds a random lyric from "Hello Dolly" to the upper right-hand corner of admin screen.</li>
+                </ul>
+
+      </section>
+
+      <section>
+            <h3>Plugin Management</h3>
+            
+               <ul>
+                  <li><strong>Activate/Deactivate:</strong> Turns plugins "on" and "off"</li>
+                  <li><strong>Edit:</strong> Ability to edit plugin files (NOT RECOMMENDED)</li>
+                  <li><strong>Delete:</strong> Delete deactivated plugins</li>
+                </ul>
+          
+          </section>
+
+           <section>
+            <h3>Find and Add Plugins</h3>
+     
+               <ul>
+                <li>Plugins > Add New</li>
+                <li>In the Search Box: Enter a feature you want to add to your site</li>
+                <li>Try a Plugin by clicking 'Install Now'</li> 
+                <li>Search the <a href="http://wordpress.org/plugins/" target="_blank">WordPress Plugin Directory</a></li>
+                <li>Download and install via the 'Upload' link</li>
+              </ul>
+            
+          </section>
+
+        <section>
+         <h3>Free Plugins</h3>
+         <p>Some of our personal favorites:<p>
+          	<ul>
+	         <li class="left-align"><a href="http://wordpress.org/plugins/all-in-one-seo-pack/" target="_blank">All in one SEO</a></li>
+	         <li class="left-align"><a href="http://wordpress.org/plugins/broken-link-checker/" target="_blank">Broken Link Checker</a></li>
+	         <li class="left-align"><a href="http://wordpress.org/plugins/meteor-slides/" target="_blank">Meteor Slides</a></li>
+	         <li class="left-align"><a href="http://wordpress.org/plugins/underconstruction/" target="_blank">Under Construction</a></li>
+	         <li class="left-align"><a href="http://wordpress.org/plugins/password-protected/" target="_blank">Password Protected</a></li>
+     		</ul>
+		</section>
+
+
+
+       	<section>
+         <h3>Premium Plugins</h3>
+         <p>Some of our personal favorites:<p>
+	         <ul>
+		         <li class="left-align"><a href="http://akismet.com/wordpress/" target="_blank">Akismet*</a></li>
+		         <li class="left-align"><a href="http://ithemes.com/purchase/backupbuddy/" target="_blank">BackupBuddy</a></li>
+		         <li class="left-align"><a href="http://www.woothemes.com/woocommerce/" target="_blank">WooCommerce</a></li>
+		         <li class="left-align"><a href="http://www.gravityforms.com/">Gravity Forms</a></li>
+	     	<small>*Free for personal use.</small></ul>
+        </section>
+
+        <section>
+         <h3>Let's try it</h3>
+         <p>Install the plugin <span class="green">Contact Form 7</span><p>
+          
+        </section>
+     <section>
+            <h3>Plugin Use Tip</h3>
+            <h5 class="green">Shortcodes</h5>
+              
+              <p>
+                <a href="http://codex.wordpress.org/Shortcode" target="_blank">Shortcodes</a> can be used to add content to your page or post
+              </p>
+              <p>
+                Example: <a href="http://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a> generates a unique shortcode similar to <code>[contact-form-7 id="105"]</code> that you'll copy and paste into your Contact page. 
+              </p>
+              
+          </section>
+
+           <section>
+            <h3>Plugin Quality Check</h3>
+            <h5 class="green">** Tips ***</h5>
+              <ul>
+            <li><strong>Ratings*</strong> And read the plugin reviews</li>
+            <li><strong>Maintenance*</strong> Check to see if the plugin has recent updates</li>
+            <li><strong>Support*</strong> Does the developer regularly answer support questions?</li>
+          </ul>
+          </section>
+
+
+
+        <!--Common Questions-->
+        <section>
+         <h2>Common Questions</h2> <h2>about WordPress</h2>
+        </section>
+        <!--Leeann!-->
+        <section>
+         <h3>Can I move my Blog?</h3>
+         <p>or</p>
+         <h3>Can I import my old Blog?</h3>
+         <p class="fragment"><span class="green">Yes!</span><br/>Tools – Import/Export</p>
+
+        </section>
+        
+        <section>
+         <h3>Let's try it</h3>
+         <p>Download the <a href="http://wpcandy.com/made/the-sample-post-collection/#.VbUjHorF8XQ" target="_blank">wp candy's</a> sample content and let's import to our site. <p>
+          
+        </section>
+
+
+        <section>
+         <h3>Should I be concerned about my site's security?</h3>
+         <p>Many WordPress attacks are carried out autonomously by malicious software bots.</p>
+         <img src="images/robot_sitting.png" alt="cute robot" width="300" />
+         <p>Sure he looks cute...</p><br/>
+        </section>
+
+        <section>
+         <h3>What the bad robots do:</h3>
+         <ul>
+         	<li class="fragment" ><span class="red">Brute Force Attacks</span> – They try to log in.</li>
+         	<li class="fragment" ><span class="red">WP Core Vulnerabilities</span> – They know what's wrong with your version of WP.</li>
+         	<li class="fragment" ><span class="red">Bad Plugins</span> – They inject code into parts of your site.</li>
+         	<li class="fragment" ><span class="red">They watch your files</span> – Permissions, unsecure FTP.</li>
+         </ul>
+         <small class="fragment"><a href="http://codex.wordpress.org/Hardening_WordPress" target="_blank">Learn more: Hardening WordPress</a></small>
+        </section>
+
+        <section>
+         <h3>What about comments?</h3>
+         <p class="left" >By default pages and posts can receive viewer comments</p> 
+         <p class="left" >It's easy to turn this feature off.</p><br/><br/><br/>
+         <p class="left" >You choose how you'd like to manage comments:</p>
+         <ul><li>Only members can post</li>
+         	<li>Only approved comments are published</li>
+         	<li>All comments are immediately published but can be deleted later.</li>
+         </ul>
+        </section>
+
+       <!-- Question-->
+        <section>
+          <h3>Questions?</h3>
+          <p>We're here to help!</p>
+          <img src="images/questions_cat.jpg" alt="Confused? Let us help!" />
+          
+        </section>
+			</div>
+  		<footer>
+        <div class="copyright">
+          Intro to WordPress ~ Girl Develop It Boston ~
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div>
+      </footer>
+		</div>
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
